@@ -20,11 +20,11 @@ function quiz() {
 }
 console.log("Score final: " + score + " / " + questions.length);
 if (score === questions.length) {
-    console.log(`🌟 Bravo ${personalP}! Tu connais très bien le Maroc!`);
+    console.log("🌟 Bravo ! Tu connais très bien le Maroc!");
 } else if (score >= 3) {
-    console.log(`👍 Bien joué ${personalP}, continue d'apprendre sur ton pays!`);
+    console.log("👍 Bien joué , continue d'apprendre sur ton pays!");
 } else {
-    console.log(`⚠️ Courage ${personalP}, révise un peu plus sur le Maroc!`);
+    console.log("⚠️ Courage, révise un peu plus sur le Maroc!");
 }
 }
 quiz();
