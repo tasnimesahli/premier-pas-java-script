@@ -6,9 +6,7 @@ function number() {
     if (table[i]===choisi) {
         compteur++;
     }
-
  }
-   console.log("le nombre totale "+choisi +"est" +compteur);
- 
+console.log("le nombre totale "+choisi +"est" +compteur);
 }
-number(); 
+number();

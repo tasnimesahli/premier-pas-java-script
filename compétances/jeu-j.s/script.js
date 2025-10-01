@@ -10,7 +10,6 @@ const questions = [
   { q: "Réaliser une interface utilisateur avec un CMS ou e-commerce", r: "C7" },
   { q: "Utiliser un Framework FrontEnd (React, Vue...)", r: "C8" }
 ];
-
 let score = 0;
 
 function quiz() {
