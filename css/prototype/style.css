@@ -120,6 +120,6 @@ padding: 10px;
     flex-wrap: nowrap;
 } body{
     display: grid;
-    grid-template-columns: 900px,200px,50px;
+    grid-template-columns: 900px,200px,300px;
     gap: 90px;
 }
