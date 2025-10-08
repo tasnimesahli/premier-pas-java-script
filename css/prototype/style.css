@@ -114,4 +114,12 @@ padding: 10px;
     transition: 2s;    
 } footer p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+} main{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+} body{
+    display: grid;
+    grid-template-columns: 900px,200px,50px;
+    gap: 90px;
+}
